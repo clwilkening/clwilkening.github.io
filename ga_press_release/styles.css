@@ -1,0 +1,115 @@
+header {
+  background: black;
+}
+
+body {
+  background: #F6F6f6;
+  background: url("http://i.imgur.com/EJLQHSH.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 600px;
+}
+
+.ga {
+  background: #f6f6f6;
+  font-family: News\706, Georgia serif;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 46px;
+  text-align: center;
+  max-width: auto;
+  margin: auto;
+  padding: 30px 10px;
+
+}
+
+.release {
+  background: #FFFFFF;
+  max-width: 400px;
+  float: right;
+  margin: 30px 90px;
+}
+
+.release-head {
+  font-family: "News-706", Georgia, serif;
+  background: gold;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  padding: 20px 3px;
+}
+
+.release-info {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  padding: 15px 10px 30px 10px;
+}
+
+.locations {
+  clear: both;
+  margin: auto;
+  margin-color: #f6f6f6;
+  display: block;
+  font-family: "PDFin", impact, sans-serif;
+  font-size: 30px;
+}
+.d1, .d2, .d3, .d4 {
+  background: #f6f6f6;
+}
+
+.d1 {
+  padding: 2em;
+}
+
+.d2 {
+  padding: 2em;
+}
+
+.d3 {
+  padding: 2em;
+}
+
+.d4 {
+  padding: 2em;
+}
+
+.div1 {
+  float: left;
+}
+.div2{
+  float: left;
+}
+.div3{
+  float: left;
+}
+.div4 {
+  float:left;
+}
+
+li:hover {
+  background: white;
+  color: tomato;
+}
+
+.more-info {
+  clear:both;
+  background: black;
+  color: white;
+  font-family: News\706, Georgia serif;
+  font-size: 18px;
+  text-align: center;
+  padding: 2em;
+
+}
+
+a {
+  font-family: "PDFin", impact, sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+
