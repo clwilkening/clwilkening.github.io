@@ -1,47 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>About | Chris Wilkening</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simon | Chris W</title>
+  <script src="src/jquery-3.1.1.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="CSS/reset.css">
+  <link rel="stylesheet" type="text/css" href="CSS/styles.css">
 </head>
 <body>
 
-  <header>
-    <h1 class="my_name">Christopher Wilkening</h1>
-    <nav class="clearfix">
-    <a class="clearfix_link" href="#">About</a>
-    <a class="clearfix_link" href="#">Portfolio</a>
-    <a class="clearfix_link" href="ga_press_release/index.html">Press Release</a>
-    <a class="clearfix_link" href="#">Contact</a>
-    </nav>
-  </header>
+<h1>Simon</h1>
 
-  <section>
-    <div class="about">
-      <h3>Who I Am</h3>
-      <p>Creative, Commited, and Tall. A creator at heart, I'm a passionate web developer seeking ways to improve lives and expand my skills. Composer, Runner, Husband, and Amateur Chef. </p>
-      <img src="http://i.imgur.com/5bthxLu.jpg?1">
-    </div>
-    <div class="my_skills">
-      <h3>My Skills</h3>
-      <!--I put Erik's skills. I figured this is what the end goal is.-->
-      <ul class="skills_list">
-        <li>React</li>
-        <li>Redux</li>
-        <li>Node</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Ruby on Rails</li>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-      </ul>
-    </div>
-  </section>
+<h3 id="instButton">How to Play</h3>
 
-  <footer>
-    <p class="footer">© 2016 Chris Wilkening</p>
-  </footer>
+<div class="container">
+  <button class="button b0"><audio id="playb0" src="audio/simonHarp1.mp3" preload="auto"></audio></button>
+  <button class="button b1"><audio id="playb1" src="audio/simonHarp2.mp3" preload="auto"></audio></button>
+  <button class="button b2"><audio id="playb2" src="audio/simonHarp3.mp3" preload="auto"></audio></button>
+  <button class="button b3"><audio id="playb3" src="audio/simonHarp4.mp3" preload="auto"></audio></button>
+  <div class="count"></div>
+</div>
 
+<button class="start"><audio id="simonStrings" src="audio/simonStrings.mp3"></audio>Start</button>
+
+<footer class = "site-footer">Made with <span>&#9829;</span> by Chris Wilkening</footer>
+
+
+<div id="modal-content">
+   <span onclick="document.getElementById('modal-content').style.display='none'"
+      class="close-modal">&times;</span>
+  <p>Click the buttons in the same order as the computer. Be careful! If you miss you'll have to start over.</p>
+</div>
+
+<script src="src/app.js"></script>
 </body>
+
+
+
+
 </html>
+
+

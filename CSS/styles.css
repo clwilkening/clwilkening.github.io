@@ -1,0 +1,242 @@
+body {
+  background-image: url("http://i.imgur.com/beQa5oi.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Baloo Thambi', cursive;
+  color: white;
+  text-shadow: 4px 4px grey;
+  font-size: 48px;
+  letter-spacing: 5px;
+  font-weight: 800;
+  margin-top: 30px;
+}
+
+h3 {
+  font-family: 'Baloo Thambi', cursive;
+  color: white;
+  float: left;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px grey;
+  font-size: 30px;
+  padding-left: 6%;
+}
+
+h3:hover {
+  color: hotpink;
+  text-shadow: 2px 2px limegreen;
+  cursor: pointer;
+}
+
+.modal { /*grabbed and edited from w3*/
+    display: none; /* Hidden by default */
+}
+
+#modal-content {
+  display: none;
+  z-index: 1;
+  background-color: white !important;
+  position: absolute;
+  left: 50px;
+  top: 150px;
+  width: 190px;
+  height: 190px;
+  padding: 10px 10px 10px 15px;
+  border-radius: 10%;
+  border: 10px solid silver;
+  box-shadow: 0 0 15px silver;
+  font-size: 20px;
+  font-family: 'Baloo Thambi', cursive;
+  color: forestgreen;
+  animation: ease-in-out 4s;
+  line-height: 28px;
+}
+
+.container {
+  vertical-align: middle;
+  margin: 0 auto;
+  /*border: 3px solid white;*/
+  margin-top:10px;
+  box-sizing: border-box;
+  max-width: 450px;
+  height: 450px;
+  position: relative;
+}
+
+.win {
+  vertical-align: middle;
+  margin: 0 auto;
+  z-index: 1;
+  background: white;
+  border: 10px solid black;
+  /*border: 3px solid white;*/
+  margin-top:10px;
+  box-sizing: border-box;
+  max-width: 450px;
+  height: 450px;
+  font-size: 50px;
+  font-family: 'Baloo Thambi', cursive;
+  color: forestgreen;
+  text-align: center;
+  padding-top: 25%;
+}
+
+.lose {
+  vertical-align: middle;
+  margin: 0 auto;
+  z-index: 0;
+  background: darkgrey;
+  border: 10px solid black;
+  /*border: 3px solid white;*/
+  margin-top:10px;
+  box-sizing: border-box;
+  max-width: 450px;
+  height: 450px;
+  font-size: 50px;
+  font-family: 'Baloo Thambi', cursive;
+  color: tomato;
+  text-align: center;
+  padding-top: 25%;
+}
+
+.button {
+  border: 10px solid;
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  min-width: 50px;
+  min-height: 50px;
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 10%;
+}
+.button:hover{
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(255,255,255,1);
+}
+
+.b0 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-color: #EA4335;
+}
+
+.b0-red {
+  background-color: #EA4335;
+}
+
+.b1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-color: #FBBC05;
+}
+
+.b1-yellow{
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-color: #FBBC05;
+  background-color: #FBBC05;
+}
+
+.b2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-color: #34A853;
+}
+
+.b2-green {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-color: #34A853;
+  background-color: #34A853;
+}
+
+.b3 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-color: #4385F4;
+}
+
+.b3-blue {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-color: #4385F4;
+  background-color: #4385F4;
+}
+
+.count{
+  font-family: 'Baloo Thambi', cursive;
+  font-size: 45px;
+  color: white;
+  text-shadow: 0 0 20px darkviolet;
+  position: absolute;
+  margin: 44.5%;
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  /*background-color: rgba(200,200,200,.5);*/
+  text-align: center;
+  padding-top: 10px;
+
+}
+
+.start {
+  font-family: 'Baloo Thambi', cursive;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 5px;
+  text-shadow: 3px 3px grey;
+  background-color: rgba(0,200,0,.5);
+  padding: 10px 20px;
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  outline: none;
+}
+.start:hover {
+  cursor: pointer;
+}
+
+/*.start .break:before {
+  height:; 140px;
+}*/
+
+footer{
+  display: block;
+  margin-top: 20px;
+  font-size: 18px;
+  color: silver;
+  text-shadow: 4px 4px 15px white;
+/*  left: 0;
+  bottom: 0;
+  right: 0;*/
+  padding-top: .5rem;
+  text-align: center;
+}
+
+span {
+  color: hotpink;
+}
+
+.site-footer:after {
+  height: 70px;
+}
+
+/* #EA4335 - red
+#FBBC05 - yellow
+#34A853 - green
+#4385F4 - bluee
+
+
+
